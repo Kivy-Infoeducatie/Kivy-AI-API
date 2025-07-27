@@ -7,3 +7,4 @@ app = FastAPI()
 
 app.include_router(auth_router, prefix='/auth')
 app.include_router(token_router, prefix='/token')
+app.include_router(operations_router, prefix='/action')
